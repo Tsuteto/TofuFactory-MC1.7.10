@@ -1,14 +1,13 @@
 package tofufactory;
 
 import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import cpw.mods.fml.relauncher.Side;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
@@ -18,10 +17,10 @@ import tofufactory.achievement.TFTriggerManager;
 import tofufactory.config.TFConfig;
 import tofufactory.fluid.TFFluids;
 import tofufactory.gui.TFGuiHandler;
+import tofufactory.machinerecipe.TofuMachineRecipe;
 import tofufactory.plugin.PluginTofuFactory;
 import tofufactory.proxy.CommonProxy;
 import tofufactory.proxy.TFTextureStitchEvent;
-import tofufactory.machinerecipe.TofuMachineRecipe;
 import tofufactory.registry.BlockRegister;
 import tofufactory.registry.ItemRegister;
 
@@ -34,7 +33,7 @@ import tofufactory.registry.ItemRegister;
 public class TofuFactory
 {
     public static final String modId = "TofuFactory";
-    public static final String version = "1.5.0-MC1.7.10";
+    public static final String version = "1.5.1-MC1.7.10";
     public static final String resourceDomain = "tofufactory:";
     public static final Logger tfLog = LogManager.getLogger("TofuFactory");
 

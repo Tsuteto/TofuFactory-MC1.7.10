@@ -37,12 +37,12 @@ item.tofufactory:dust.mithril.name=Mithril Dust
 item.tofufactory:dust.sol.name=Solar Dust
 item.tofufactory:dust.luna.name=Lunar Dust
 
-item.tofufactory:gem.emerald.name=Emerald Tofu
-item.tofufactory:gem.peridot.name=Peridot Tofu
-item.tofufactory:gem.ruby.name=Ruby Tofu
-item.tofufactory:gem.sapphire.name=Sapphire Tofu
-item.tofufactory:gem.sugilite.name=Sugilite Tofu
-item.tofufactory:gem.topaz.name=Topaz Tofu
+item.tofufactory:gem.emeraldTofu.name=Emerald Tofu
+item.tofufactory:gem.peridotTofu.name=Peridot Tofu
+item.tofufactory:gem.rubyTofu.name=Ruby Tofu
+item.tofufactory:gem.sapphireTofu.name=Sapphire Tofu
+item.tofufactory:gem.sugiliteTofu.name=Sugilite Tofu
+item.tofufactory:gem.topazTofu.name=Topaz Tofu
 
 item.tofufactory:magicCircuit.name=Magic Circuit
 item.tofufactory:magicCircuitAdv.name=Advanced Magic Circuit

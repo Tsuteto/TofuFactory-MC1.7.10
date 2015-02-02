@@ -37,12 +37,12 @@ item.tofufactory:dust.mithril.name=ミスリルの粉
 item.tofufactory:dust.sol.name=ソルの粉
 item.tofufactory:dust.luna.name=ルナの粉
 
-item.tofufactory:gem.emerald.name=エメラルド豆腐
-item.tofufactory:gem.peridot.name=ペリドット豆腐
-item.tofufactory:gem.ruby.name=ルビー豆腐
-item.tofufactory:gem.sapphire.name=サファイア豆腐
-item.tofufactory:gem.sugilite.name=スギライト豆腐
-item.tofufactory:gem.topaz.name=トパーズ豆腐
+item.tofufactory:gem.emeraldTofu.name=エメラルド豆腐
+item.tofufactory:gem.peridotTofu.name=ペリドット豆腐
+item.tofufactory:gem.rubyTofu.name=ルビー豆腐
+item.tofufactory:gem.sapphireTofu.name=サファイア豆腐
+item.tofufactory:gem.sugiliteTofu.name=スギライト豆腐
+item.tofufactory:gem.topazTofu.name=トパーズ豆腐
 
 item.tofufactory:magicCircuit.name=魔法回路
 item.tofufactory:magicCircuitAdv.name=集積魔法回路

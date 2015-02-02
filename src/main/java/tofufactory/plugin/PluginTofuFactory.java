@@ -172,7 +172,7 @@ public class PluginTofuFactory
 
     private static void initTofuGem()
     {
-        String[] tofuGemName = new String[] {"emerald", "peridot", "ruby", "sapphire", "sugilite", "topaz"};
+        String[] tofuGemName = new String[] {"emeraldTofu", "peridotTofu", "rubyTofu", "sapphireTofu", "sugiliteTofu", "topazTofu"};
         tofuGem = ItemRegister.of("tofuGem",  new ItemTofuGem(tofuGemName)).register();
 
         for (int i = 0; i < tofuGemName.length; ++i)

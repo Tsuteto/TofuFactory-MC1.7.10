@@ -15,7 +15,6 @@ import java.util.List;
 public class ItemTube extends ItemSetBase
 {
     private ItemTubeOverlayInfo[] overlays;
-    private String[] tubeNames;
     @SideOnly(Side.CLIENT)
     private IIcon primaryIcon;
     @SideOnly(Side.CLIENT)
@@ -23,17 +22,19 @@ public class ItemTube extends ItemSetBase
 
     public ItemTube(ItemTubeOverlayInfo[] overlays)
     {
-        super();
-        this.setMaxDamage(0);
-        this.setHasSubtypes(true);
+        super(getTubeNames(overlays));
         this.overlays = overlays;
 
+    }
+
+    private static String[] getTubeNames(ItemTubeOverlayInfo[] overlays)
+    {
         List<String> names = Lists.newArrayList();
         for (ItemTubeOverlayInfo overlay : overlays)
         {
             names.add(overlay.name);
         }
-        this.tubeNames = names.toArray(new String[names.size()]);
+        return names.toArray(new String[names.size()]);
     }
 
     @Override
@@ -61,6 +62,12 @@ public class ItemTube extends ItemSetBase
                 itemList.add(new ItemStack(this, 1, i));
             }
         }
+    }
+
+    @SideOnly(Side.CLIENT)
+    public IIcon getIconFromDamage(int p_77617_1_)
+    {
+        return this.itemIcon;
     }
 
     @Override
@@ -98,12 +105,6 @@ public class ItemTube extends ItemSetBase
     public int getColorFromItemStack(ItemStack itemstack, int j)
     {
         return j != 0 && this.overlays[itemstack.getItemDamage()].secondaryColor != 0 ? this.overlays[itemstack.getItemDamage()].secondaryColor : this.overlays[itemstack.getItemDamage()].primaryColor;
-    }
-
-    @Override
-    public String[] getItemList()
-    {
-        return this.tubeNames;
     }
 
     @Override
