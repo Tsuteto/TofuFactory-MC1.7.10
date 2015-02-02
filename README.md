@@ -5,13 +5,13 @@
 
 シフト氏のトピック（配布ページ）：http://forum.minecraftuser.jp/viewtopic.php?f=13&t=22369
 
-Dependencies
+## Dependencies
 - Minecraft 1.7.10
 - Forge 10.13.2.1230
 - BuildCraft 6.3.3
 - 豆腐Craft 1.6.15
 
-Features
+## Features
 - Forestry for Minecraft 3.3.0.6
 - InductrialCraft² 2.2.667-experimental
 - Tinker's Construct 1.8.2a
@@ -21,9 +21,9 @@ Features
 
 (バージョンは動作チェックしたもの)
 
-シフト氏のオリジナル版からの変更点
-- FFM：真空管を2種類追加
+## シフト氏のオリジナル版からの変更点
 - 多言語対応。英語・日本語表示に対応
+- FFM：真空管を2種類追加
 - FFM：バックパックに入れられるアイテムを増やした
 - FFM：蜂の巣は豆腐の森バイオームに生成するように
 - Greg：対応要素の詳細が不明のため一時的に削除
