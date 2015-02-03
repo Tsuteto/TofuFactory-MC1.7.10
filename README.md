@@ -11,9 +11,9 @@
 - BuildCraft 6.3.3
 - 豆腐Craft 1.6.15
 
-## Features
+## Featuring
 - Forestry for Minecraft 3.3.0.6
-- InductrialCraft² 2.2.667-experimental
+- IndustrialCraft² 2.2.667-experimental
 - Tinker's Construct 1.8.2a
 - Thaumcraft 4.2.3.4
 - 竹mod 2.6.8.3
@@ -27,4 +27,4 @@
 - FFM：バックパックに入れられるアイテムを増やした
 - FFM：蜂の巣は豆腐の森バイオームに生成するように
 - Greg：対応要素の詳細が不明のため一時的に削除
-- Thaumcraft：Aspectを持つブロックを増やした
+- Thaumcraft：相を持つブロックを増やした
