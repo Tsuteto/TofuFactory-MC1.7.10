@@ -1,9 +1,10 @@
 # 豆腐Factory
 豆腐Craftの工業mod連携アドオン。シフト氏から引き継いでマイクラ1.7に対応したものになります。
 
-ただし、**正式公開版ではありません**。現在の豆腐Craftと親和性を高めた上で自分のトピックで正式公開する予定です。したがって要素等の詳しい説明はまだしません。下記のシフト氏のトピックと後述する変更点を参照してください。
+ただし、こちらは**正式公開版ではありません**（正式公開版の[豆腐Factory Reloadedはこっち][豆腐Factory Reloaded]）。したがって要素等の詳しい説明はまだしません。下記のシフト氏のトピックと後述する変更点を参照してください。
 
 シフト氏のトピック：http://forum.minecraftuser.jp/viewtopic.php?f=13&t=14794
+[豆腐Factory Reloaded]: https://github.com/Tsuteto/TofuFactoryReloaded-MC1.7.10
 
 ## Dependencies
 - Minecraft 1.7.10
